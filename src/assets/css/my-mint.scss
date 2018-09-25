@@ -1,0 +1,9 @@
+/* 覆盖mint-ui的primary颜色，改为自己UI的主题色 */
+$color-primary: #ffcb16;
+.mint-navbar .mint-tab-item.is-selected {
+    border-bottom: 3px solid $color-primary;
+    color: $color-primary;
+  }
+  .mint-tabbar > .mint-tab-item.is-selected {
+    color: $color-primary;
+  }

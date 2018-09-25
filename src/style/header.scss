@@ -1,0 +1,25 @@
+#app {
+    .vux-header {
+            height: 94px;
+            box-shadow: 0px 9px 9px 0px rgba(0, 0, 0, 0.09)!important;
+            background-color: #1b1a20!important;
+            padding:0;
+        }
+        .vux-header .vux-header-title{
+            font-size: 34px;
+            letter-spacing: 2px;
+            color: #ffffff;
+            line-height: 94px;
+            height: 94px;
+        }
+        .vux-header .vux-header-left .left-arrow{
+            height:34px;
+            width:34px;
+        }
+        .vux-header .vux-header-left .left-arrow:before{
+            width: 22px;
+            height:22px;
+            top:28px;
+            left:22px;
+        }
+}

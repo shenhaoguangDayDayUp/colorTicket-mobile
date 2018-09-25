@@ -1,0 +1,16 @@
+.isError {
+    margin-top: 40px;
+    line-height: 40px;
+    letter-spacing: 3px;
+    color:#ffcb16;
+}
+.isTip {
+    color: #ffcb16;
+    display: block;
+    font-size: 24px;
+    img {
+      height: 25px;
+      margin-right: 5px;
+      margin-bottom: 0.1rem;
+    }
+  }

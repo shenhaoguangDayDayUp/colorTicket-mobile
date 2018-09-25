@@ -1,0 +1,135 @@
+
+  
+  /* 消除手机端input高亮 */
+  input {
+    /* -webkit-tap-highlight-color: rgba(255, 255, 255, 0); */
+    -moz-user-select: none;
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+    border: none;
+    background-color: transparent;
+    filter: alpha(opacity=0)
+  }
+  a {
+    -webkit-user-select: auto!important;
+  }
+  .content {
+    margin: 71px 82px 0 78px;
+    // margin-top: 94px;
+  }
+
+  .slide_son {
+    .normalLogin {
+      input {
+        /* -webkit-tap-highlight-color: rgba(255, 255, 255, 0); */
+        -moz-user-select: none;
+        -webkit-appearance: none;
+        outline: none;
+        border: none;
+        -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+        border: none;
+        background-color: transparent;
+        filter: alpha(opacity=0)
+      }
+      li {
+        padding: 24px 0;
+        border-bottom: 1px solid #d8d8d8;
+        box-sizing: border-box;
+        position: relative;
+        input {
+          border: none;
+          width: 70%;
+          outline: 0;
+          overflow: hidden;
+          font-size: 28px;
+          height: 46px;
+        }
+        button {
+          position: absolute;
+          right: 0;
+        }
+      }
+      .icon-eye {
+        position: absolute;
+        height: 23px;
+        width: 36px;
+        right: 0;
+        bottom: 24px;
+      }
+      
+    }
+  }
+  .slide_son .forget {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+    color: #ffcb16;
+    font-size:26px;
+    a {
+      color: #ffcb16;
+    }
+    .mint-checklist-label {
+      display: block;
+      padding: 0;
+    }
+    .mint-checkbox-core {
+      border-radius: 3px;
+      background-color: transparent;
+      height: 27px;
+      width: 27px;
+    }
+    .mint-checkbox-input:checked+.mint-checkbox-core {
+      background-color: transparent;
+      border: solid 2px #d6dae2;
+    }
+    .mint-checkbox-input:checked+.mint-checkbox-core::after {
+      border-color: #ffcb16;
+      width: 10px;
+      height: 15px;
+      left: 7px;
+      top: -3px;
+    }
+  }
+  .normalTab {
+    text-align: center;
+    letter-spacing: 12px;
+    padding-top: 25px; // font-family: MyriadPro-Bold;
+    font-size: 60px;
+  }
+  .close {
+    height: 40px;
+    width: 100px;
+    img {
+      width: 18px;
+      margin-left: 20px;
+      margin-top: 11px;
+      margin-bottom: 11px;
+    }
+  }
+  
+  .isError {
+    margin-top: 40px;
+    line-height: 40px;
+    letter-spacing: 3px;
+}
+  .isTip {
+    color: #ffcb16;
+    display: block;
+    font-size: 24px;
+    img {
+      height: 25px;
+      margin-right: 5px;
+      margin-bottom: 0.1rem;
+    }
+  }
+  .clearfix:before,
+  .clearfix:after {
+    display: table;
+    content: " ";
+  }
+  
+  .clearfix:after {
+    clear: both;
+  }

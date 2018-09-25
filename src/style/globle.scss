@@ -1,0 +1,91 @@
+.vux-toast .weui-toast{
+    width: 350px !important;
+  }
+  .weui-toast_text .weui-toast__content{
+    padding:30px !important;
+    font-size:28px;
+  }
+  .order-list .vux-tab-container .vux-tab{
+    background-color:#23262b !important;
+    border-bottom: #23262b 1px solid;
+    height:100%;
+  }
+  .order-list .vux-tab-container{
+    // height: auto;
+    height:70px;
+    .vux-tab{
+      padding: 10px;
+    }
+    
+  }
+  .order-list .vux-tab .vux-tab-item{
+    font-size: 28px;
+    background:none;
+  }
+  .vux-loadmore{
+    .weui-loading {
+      width: 50px;
+      height: 50px;;
+    }
+    .weui-loadmore__tips{
+      font-size: 25px;
+    }
+  }
+  .vux-divider{
+    color: white !important; 
+  }
+  .weui-toast{
+    top:40% !important;
+    .weui-icon_toast.weui-loading{
+      margin: 40px 0 0 !important; 
+    }
+    .weui-toast__content{
+      font-size:25px !important; 
+    }
+    .weui-icon_toast.weui-loading{
+      width:50px;
+      height:50px;
+    }
+  }
+  .weui-dialog{
+    width:90% !important;
+    border-radius: 25px !important;
+    max-width:none !important;
+    color: #515151 !important;
+  }
+  .weui-loading_toast{
+    .weui-mask_transparent{
+      background: rgba(17,17,17,0.7)
+    }
+    .weui-toast{
+      background: transparent !important;
+    }
+  }
+  .vux-mask-enter, .vux-mask-leave-active {
+    opacity: 0 !important;
+   }
+   .vux-mask-leave-active, .vux-mask-enter-active {
+     transition: opacity 80ms !important;
+   }
+  .sticky-content{
+    .vux-sticky-box{
+      top:94px !important;
+    }
+  }
+  .prizeCity {
+    .vux-slider > .vux-swiper > .vux-swiper-item > a > .vux-img{
+           display: block;
+      width: 100%;
+      height: 100%;
+      background: center center no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+  @media screen and (min-width:1024px){
+    body{ width:750px; margin:0 auto; position:relative;}
+  }
+  
+ 
+  // .weui-tabbar{
+  //   background: #1b1a20 !important;
+  // }
